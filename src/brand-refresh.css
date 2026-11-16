@@ -250,7 +250,7 @@
 
 /* Responsive header and page-tab navigation */
 html {
-  scroll-padding-top: 142px;
+  scroll-padding-top: 210px;
 }
 
 .site-header {
@@ -310,7 +310,8 @@ html {
   font-weight: 650;
   line-height: 1.2;
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: anywhere;
   transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
 }
 
@@ -392,7 +393,7 @@ html {
 
 @media (max-width: 760px) {
   html {
-    scroll-padding-top: 205px;
+    scroll-padding-top: 260px;
   }
 
   .site-header {
