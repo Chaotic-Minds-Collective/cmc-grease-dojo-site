@@ -2,8 +2,7 @@ import React from 'react';
 import { useLang } from '../i18n/LanguageContext';
 
 // Tally embed URL for the contact form (free plan, unlimited responses).
-// Form: "Contact The Greasy Dojo" at https://tally.so/r/M1Xj4p
-// To swap forms later, replace the URL with the new Tally share link.
+// The hosted form title is managed in Tally; this embed ID is intentionally unchanged.
 const TALLY_FORM_URL = 'https://tally.so/r/M1Xj4p';
 
 // Scrolling for the contact route is handled centrally in App (scroll to
@@ -15,7 +14,7 @@ export const ContactPage: React.FC = () => {
     <div className="contact-main">
       <div className="contact-inner">
         <div className="eyebrow">
-          <span className="eyebrow-line" /> {t('CONTACT THE DOJO')}
+          <span className="eyebrow-line" /> {t('CONTACT THE DIAGNOSTIC BAY')}
         </div>
         <h1 className="contact-title">
           {t('Questions? Corrections?')}

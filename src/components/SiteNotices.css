@@ -1,6 +1,6 @@
 .site-notices-section {
-  background: #141416;
-  border-block: 1px solid #342d2e;
+  background: var(--panel);
+  border-block: 1px solid var(--line);
 }
 
 .notice-grid {
@@ -11,36 +11,36 @@
 
 .notice-card {
   padding: 1.3rem;
-  border: 1px solid #39434d;
+  border: 1px solid var(--line);
   border-radius: 10px;
-  background: #191f25;
+  background: var(--panel2);
 }
 
 .notice-card-warning {
-  border-color: #744347;
-  background: linear-gradient(145deg, #261b1d, #191a1e);
+  border-color: var(--red);
+  background: linear-gradient(145deg, #261b1d, var(--panel2));
 }
 
 .notice-label {
-  color: #ff7a18;
+  color: var(--fire);
   font-size: 0.64rem;
   font-weight: 900;
   letter-spacing: 0.12em;
 }
 
 .notice-card-warning .notice-label {
-  color: #f08a8a;
+  color: var(--red);
 }
 
 .notice-card h3 {
   margin: 0.75rem 0 0.65rem;
-  color: #e8edf2;
+  color: var(--text);
   font-size: 1.15rem;
 }
 
 .notice-card p {
   margin: 0.65rem 0 0;
-  color: #b5c0c8;
+  color: var(--muted);
   font-size: 0.85rem;
   line-height: 1.65;
 }
@@ -49,15 +49,15 @@
   max-width: 900px;
   margin: 1.3rem 0 0;
   padding: 1rem 1.1rem;
-  border-left: 3px solid #e2bc58;
-  background: #1b1c1e;
-  color: #aeb9c1;
+  border-left: 3px solid var(--gold);
+  background: var(--panel2);
+  color: var(--muted);
   font-size: 0.8rem;
   line-height: 1.6;
 }
 
 .notice-review-note strong {
-  color: #e2bc58;
+  color: var(--gold);
 }
 
 @media (max-width: 760px) {

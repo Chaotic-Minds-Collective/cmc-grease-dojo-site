@@ -1,10 +1,30 @@
 /**
- * Spanish translations for Grease Dojo.
+ * Spanish translations for The Diagnostic Bay.
  * All entries are keyed by the English string for t(key) lookups.
  */
 
 const ES_TRANSLATIONS: Record<string, string> = {
   // --- Common ---
+
+  // --- Brand and navigation ---
+  'Home': 'Inicio',
+  'Diagnostic Lab': 'Laboratorio de diagnóstico',
+  'Guided Intake': 'Registro guiado',
+  'Fix Database': 'Base de datos de reparaciones',
+  'Learning': 'Aprendizaje',
+  'Reference': 'Referencias',
+  'About': 'Acerca de',
+  'Contact': 'Contacto',
+  'PUBLIC EDUCATIONAL RESOURCE': 'RECURSO EDUCATIVO PÚBLICO',
+  'Some library content is still pending mechanic review. Educational reference only.': 'Parte del contenido de la biblioteca aún está pendiente de revisión por un mecánico. Solo como referencia educativa.',
+  'BEFORE USING THE DIAGNOSTIC BAY': 'ANTES DE USAR LA PLATAFORMA',
+  'CONTACT THE DIAGNOSTIC BAY': 'CONTACTA A THE DIAGNOSTIC BAY',
+  'THE DIAGNOSTIC STANDARD': 'EL ESTÁNDAR DE DIAGNÓSTICO',
+  'Back to the Bay': 'Volver al inicio',
+  'PUBLIC PREVIEW': 'VISTA PÚBLICA',
+  'Educational resource': 'Recurso educativo',
+  'DIAGNOSTIC BAY / CONCEPT': 'THE DIAGNOSTIC BAY / CONCEPTO',
+  'Evidence-led automotive education for clearer, safer diagnostic decisions.': 'Educación automotriz basada en evidencia para tomar decisiones de diagnóstico más claras y seguras.',
   'Close': 'Cerrar',
   'All': 'Todos',
   'read': 'lectura',
@@ -130,12 +150,12 @@ const ES_TRANSLATIONS: Record<string, string> = {
   "Always use the owner's manual and the manufacturer's service information for the exact vehicle. Specifications and procedures vary by year, model, engine, equipment, and market.": "Usa siempre el manual del propietario y la información de servicio del fabricante para el vehículo exacto. Las especificaciones y los procedimientos varían según el año, el modelo, el motor, el equipamiento y el mercado.",
   "Automotive Safety": "Seguridad automotriz",
   "BEFORE THE WRENCHES COME OUT": "ANTES DE SACAR LAS HERRAMIENTAS",
-  "BEFORE YOU USE THE DOJO": "ANTES DE USAR EL DOJO",
+  "BEFORE YOU USE THE DOJO": "ANTES DE USAR LA PLATAFORMA",
   "BEGINNER": "PRINCIPIANTE",
-  "Back to the Dojo": "Volver al Dojo",
+  "Back to the Dojo": "Volver al inicio",
   "Build a better": "Prepara un mejor",
   "Build confidence with the fundamentals behind a good diagnostic process. This preview is educational content, not a personalized training account.": "Desarrolla confianza con los fundamentos de un buen proceso de diagnóstico. Esta vista previa es contenido educativo, no una cuenta de capacitación personalizada.",
-  "CONTACT THE DOJO": "CONTACTA AL DOJO",
+  "CONTACT THE DOJO": "CONTACTA A THE DIAGNOSTIC BAY",
   "CONTENT IN REVIEW": "CONTENIDO EN REVISIÓN",
   "CONTENT REVIEW": "REVISIÓN DE CONTENIDO",
   "CURRENT DATA HANDLING": "TRATAMIENTO ACTUAL DE LOS DATOS",
@@ -161,7 +181,7 @@ const ES_TRANSLATIONS: Record<string, string> = {
   "Engine:": "Motor:",
   "Every time.": "Cada vez.",
   "Evidence over ego.": "La evidencia por encima del ego.",
-  "External resources are operated by their respective organizations. Their availability, access requirements, and content may change. Linking to a resource does not mean Grease Dojo has reviewed or endorsed every service it offers.": "Los recursos externos son administrados por sus respectivas organizaciones. Su disponibilidad, requisitos de acceso y contenido pueden cambiar. Incluir un enlace a un recurso no significa que Grease Dojo haya revisado o respaldado todos los servicios que ofrece.",
+  "External resources are operated by their respective organizations. Their availability, access requirements, and content may change. Linking to a resource does not mean The Diagnostic Bay has reviewed or endorsed every service it offers.": "Los recursos externos son administrados por sus respectivas organizaciones. Su disponibilidad, requisitos de acceso y contenido pueden cambiar. Incluir un enlace a un recurso no significa que The Diagnostic Bay haya revisado o respaldado todos los servicios que ofrece.",
   "FORM IS BEING SET UP": "EL FORMULARIO ESTÁ EN PREPARACIÓN",
   "FOUNDATIONS / PREVIEW": "FUNDAMENTOS / VISTA PREVIA",
   "Find the source.": "Encuentra el origen.",
@@ -240,11 +260,11 @@ const ES_TRANSLATIONS: Record<string, string> = {
   "Switch language to Spanish": "Cambiar idioma a español",
   "THE NON-NEGOTIABLES": "LO INNEGOCIABLE",
   "THE REFERENCE DESK": "EL CENTRO DE CONSULTA",
-  "THE RULES OF THE DOJO": "LAS REGLAS DEL DOJO",
+  "THE RULES OF THE DOJO": "EL ESTÁNDAR DE DIAGNÓSTICO",
   "TROUBLE CODES": "CÓDIGOS DE FALLA",
   "Tell us.": "Cuéntanos.",
-  "Grease Dojo home": "Inicio de Grease Dojo",
-  "Grease Dojo provides general educational information and tools for organizing observations. It cannot inspect your vehicle, verify a trouble code, read live data, or confirm a failed component. A trouble code is evidence, not proof of a particular failure.": "Grease Dojo ofrece información educativa general y herramientas para organizar observaciones. No puede inspeccionar tu vehículo, verificar un código de falla, leer datos en tiempo real ni confirmar que un componente esté averiado. Un código de falla es una evidencia, no una prueba de una falla específica.",
+  "The Diagnostic Bay home": "Inicio de The Diagnostic Bay",
+  "The Diagnostic Bay provides general educational information and tools for organizing observations. It cannot inspect your vehicle, verify a trouble code, read live data, or confirm a failed component. A trouble code is evidence, not proof of a particular failure.": "The Diagnostic Bay ofrece información educativa general y herramientas para organizar observaciones. No puede inspeccionar tu vehículo, verificar un código de falla, leer datos en tiempo real ni confirmar que un componente esté averiado. Un código de falla es una evidencia, no una prueba de una falla específica.",
   "The Reference Desk links to external organizations. When you open an external site, that organization's privacy, access, and service terms apply. Availability and requirements may change.": "El Centro de consulta incluye enlaces a organizaciones externas. Al abrir un sitio externo, se aplican las políticas de privacidad y los términos de acceso y servicio de esa organización. La disponibilidad y los requisitos pueden cambiar.",
   "The contact form launches shortly. Check back soon.": "El formulario de contacto estará disponible pronto. Vuelve a visitarnos.",
   "The same symptom can have several causes. Choose the closest match to explore safe first observations and possible next tests.": "Un mismo síntoma puede tener varias causas. Elige la opción más parecida para explorar observaciones iniciales seguras y posibles pruebas siguientes.",
@@ -284,7 +304,7 @@ const ES_TRANSLATIONS: Record<string, string> = {
   "you noticed.": "que has notado.",
 } as const;
 
-/** Spanish translations for Greasy Dojo search status constants. */
+/** Spanish translations for The Diagnostic Bay search status constants. */
 export const SEARCH_ES = {
   found: ' resultado encontrado. Abre un resultado para revisar la guía.',
   found_plural: ' resultados encontrados. Abre un resultado para revisar la guía.',

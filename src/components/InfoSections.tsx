@@ -54,13 +54,8 @@ export const LearningSection: React.FC = () => {
             <span>{t('FOUNDATIONS / PREVIEW')}</span>
             <span className="learning-bolt">ϟ</span>
           </div>
-          <div className="learning-seal">
-            <img
-              src={`${import.meta.env.BASE_URL}assets/brand-mark.svg`}
-              alt=""
-              width={88}
-              height={88}
-            />
+          <div className="learning-seal" aria-hidden="true">
+            <span className="learning-seal-mark">01</span>
           </div>
           <span className="learning-level">
             {t('LEVEL 01')} <i>{t('BEGINNER')}</i>
@@ -121,17 +116,12 @@ export const AboutSection: React.FC = () => {
   return (
     <section className="section-wrap about-section" id="about">
       <div className="about-card">
-        <div className="about-icon">
-          <img
-            src={`${import.meta.env.BASE_URL}assets/brand-mark.svg`}
-            alt=""
-            width={64}
-            height={64}
-          />
+        <div className="about-icon" aria-hidden="true">
+          <span className="about-icon-mark">01</span>
         </div>
         <div>
           <div className="eyebrow">
-            <span className="eyebrow-line" /> {t('THE RULES OF THE DOJO')}
+            <span className="eyebrow-line" /> {t('THE DIAGNOSTIC STANDARD')}
           </div>
           <h2>
             {t('Evidence over ego.')}
@@ -160,35 +150,29 @@ export const SiteFooter: React.FC = () => {
     <footer className="site-footer">
       <div className="footer-main">
         <a className="brand" href="#/">
-          <img
-            src={`${import.meta.env.BASE_URL}assets/brand-mark.svg`}
-            alt=""
-            width={42}
-            height={42}
-          />
           <span className="brand-copy">
             <strong>
-              THE <em>GREASY DOJO</em>
+              THE <em>DIAGNOSTIC BAY</em>
             </strong>
             <small>{t('WE HELP YOU FIND THE FAULT - OR TEACH YOU TO FIND IT')}</small>
           </span>
         </a>
         <p>
-          {t('A working concept for a clearer, safer way to learn automotive diagnostics.')}
+          {t('Evidence-led automotive education for clearer, safer diagnostic decisions.')}
         </p>
         <a className="back-top" href="#/">
-          {t('Back to the Dojo')} ↑
+          {t('Back to the Bay')} ↑
         </a>
       </div>
       <div className="footer-bottom">
         <span>
-          © <span id="year">{currentYear}</span> Grease Dojo · {t('Working concept')}
+          © <span id="year">{currentYear}</span> The Diagnostic Bay · {t('Educational resource')}
         </span>
         <span>
           {t('Educational resource · Not a substitute for vehicle-specific service information')}
         </span>
         <span className="footer-status">
-          <i /> {t('PRE-LAUNCH')} / {t('CONTENT REVIEW')}
+          <i /> {t('PUBLIC PREVIEW')} / {t('CONTENT REVIEW')}
         </span>
       </div>
     </footer>
