@@ -52,7 +52,7 @@ export const HeroSection: React.FC = () => {
           <span className="portrait-caption">{t("THE SIGNAL ISN'T THE SOLUTION.")}</span>
         </div>
         <div className="console-top">
-          <span><i className="status-dot" /> {t('DOJO SYSTEM / CONCEPT')}</span>
+          <span><i className="status-dot" /> {t('DIAGNOSTIC BAY / CONCEPT')}</span>
           <span className="console-version">SYS. 001</span>
         </div>
         <div className="scan-screen">

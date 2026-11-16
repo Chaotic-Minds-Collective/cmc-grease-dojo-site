@@ -4,7 +4,6 @@ import App from './App';
 import { LanguageProvider } from './i18n/LanguageContext';
 import './index.css';
 import './brand-refresh.css';
-import './dojo-polish.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

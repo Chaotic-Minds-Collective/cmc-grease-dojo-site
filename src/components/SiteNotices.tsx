@@ -10,13 +10,14 @@ export const SiteNotices: React.FC = () => {
         <div className="section-heading">
           <div>
             <div className="eyebrow">
-              <span className="eyebrow-line" /> {t('BEFORE YOU USE THE DOJO')}
+              <span className="eyebrow-line" /> {t('BEFORE USING THE DIAGNOSTIC BAY')}
             </div>
             <h2>
               {t('Clear limits.')} <span className="text-gold">{t('No guesswork.')}</span>
             </h2>
           </div>
-          <p>          {t('Important information about the educational content, the tools available in this build, and how information entered on this page is handled.')}
+          <p>
+            {t('Important information about the educational content, the tools available in this build, and how information entered on this page is handled.')}
           </p>
         </div>
 
@@ -24,7 +25,8 @@ export const SiteNotices: React.FC = () => {
           <article className="notice-card">
             <span className="notice-label">{t('EDUCATIONAL USE')}</span>
             <h3>{t('Not a vehicle-specific diagnosis')}</h3>
-            <p>            {t('Grease Dojo provides general educational information and tools for organizing observations. It cannot inspect your vehicle, verify a trouble code, read live data, or confirm a failed component. A trouble code is evidence, not proof of a particular failure.')}
+            <p>
+              {t('The Diagnostic Bay provides general educational information and tools for organizing observations. It cannot inspect your vehicle, verify a trouble code, read live data, or confirm a failed component. A trouble code is evidence, not proof of a particular failure.')}
             </p>
             <p>            {t("Always use the owner's manual and the manufacturer's service information for the exact vehicle. Specifications and procedures vary by year, model, engine, equipment, and market.")}
             </p>
